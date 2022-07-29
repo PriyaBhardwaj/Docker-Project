@@ -6,7 +6,7 @@ services:
    web:
     image: nginx
     volumes:
-    - ./templates:/etc/nginx/templates/index.html
+    - ./templates:/etc/nginx/index.html
 
     ports:
     - 9090:80
